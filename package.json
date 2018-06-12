@@ -1,0 +1,19 @@
+{
+  "name": "js-scrypt",
+  "version": "1.2.0",
+  "description": "[Emscripten](https://github.com/kripken/emscripten)-compiled [scrypt](http://www.tarsnap.com/scrypt.html) (version 1.2.0), a Password-Based Key Derivation Function from Colin Percival.",
+  "main": "browser/scrypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bright/js-scrypt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bright/js-scrypt/issues"
+  },
+  "homepage": "https://github.com/bright/js-scrypt#readme"
+}
