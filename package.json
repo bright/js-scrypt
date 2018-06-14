@@ -1,6 +1,6 @@
 {
   "name": "js-scrypt",
-  "version": "1.2.0",
+  "version": "0.5.0",
   "description": "[Emscripten](https://github.com/kripken/emscripten)-compiled [scrypt](http://www.tarsnap.com/scrypt.html) (version 1.2.0), a Password-Based Key Derivation Function from Colin Percival.",
   "main": "browser/scrypt.js",
   "scripts": {
