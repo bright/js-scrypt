@@ -142,3 +142,11 @@ var scrypt = (function () {
 
     return exports;
 })();
+
+if(typeof exports === 'object' && typeof module === 'object'){
+    module.exports = scrypt;
+} else if(typeof exports === 'object') {
+	exports = scrypt;
+} else if(typeof window !== 'undefined'){
+	window.scrypt = scrypt;
+}
