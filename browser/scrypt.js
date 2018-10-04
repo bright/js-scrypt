@@ -462,4 +462,11 @@ var scrypt = (function () {
     on_ready(scrypt);
     return "scrypt_module_factory API has changed -- see js-scrypt README";
 });
-window.scrypt_module_factory = scrypt_module_factory;
+
+if(typeof exports === 'object' && typeof module === 'object'){
+  module.exports = scrypt_module_factory;
+} else if(typeof exports === 'object') {
+  exports = scrypt_module_factory;
+} else if(typeof window !== 'undefined'){
+  window.scrypt_module_factory = scrypt_module_factory;
+}
